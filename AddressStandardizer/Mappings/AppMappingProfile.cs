@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using AddressStandardizer.Models;
+using AutoMapper;
 using Newtonsoft.Json;
 
 namespace AddressStandardizer.Mappings

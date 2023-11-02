@@ -30,9 +30,9 @@ namespace AddressStandardizer
 
             app.UseCors(options =>
             {
-                options.AllowAnyOrigin(); // Разрешить запросы с любых источников
-                options.AllowAnyMethod(); // Разрешить любые HTTP методы
-                options.AllowAnyHeader(); // Разрешить любые заголовки
+                options.AllowAnyOrigin();
+                options.AllowAnyMethod();
+                options.AllowAnyHeader();
             });
 
             app.UseAuthorization();
